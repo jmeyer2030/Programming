@@ -1,0 +1,12 @@
+55. The  data  used  for  Figure  20.1  in  the  book  can  be  viewed  as  being  generated  by  
+hypothesis  h5.  For  hypotheses  h3  and  h4,  generate  one  dataset  each  of  size  200  and  plot  
+graphs for P(hi|d1,...dN), i=1,..,5, as N varies from 1 to 200. (You can use a mathematics 
+package like R, Matlab  or Mathematica, or  general purpose languages like python to do 
+this. Attach the code to your answer.)  
+
+56. Continuing  with  the  above,  plot  graphs  for  P(DN+1=lime|d1,...dN)  as  N  varies  from  1  to  
+200. Attach the code to your answer. 
+
+57. Finally,  plot  P(DN+1=lime|hMAP)  and  P(DN+1=lime|hML)  as  N  varies  from  1  to  200.  Pick 
+hMAP / hML just from h3 and h4 and assume the prior probability of h3 to be 0.9. Attach the 
+code to your answer
