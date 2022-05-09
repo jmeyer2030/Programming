@@ -1,2 +1,2 @@
 # Programming
-These are some of the programs I've written. Languages include Matlab, cpp, python, and Java
+This is a loose collection of some of the programs I have written. Languages include Matlab, cpp, python, and Java
