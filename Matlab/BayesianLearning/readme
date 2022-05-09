@@ -1,3 +1,5 @@
+The code is the solution to the following problems. A pdf of the referenced textbook is in this file.
+
 55. The  data  used  for  Figure  20.1  in  the  book  can  be  viewed  as  being  generated  by  
 hypothesis  h5.  For  hypotheses  h3  and  h4,  generate  one  dataset  each  of  size  200  and  plot  
 graphs for P(hi|d1,...dN), i=1,..,5, as N varies from 1 to 200. (You can use a mathematics 
