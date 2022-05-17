@@ -1,0 +1,37 @@
+This project is the game of chess, programmed in java. It is a work in progress, and I plan to finish it soon and replace what is currently here.
+
+Features:
+  GUI with a click to move interface. 
+    White pieces are represented as capital letters, and black pieces are lowercase
+  En Passant is working
+  Checks are identified, and relevant rules about checks are functional
+    i.e. if a king is put into check, a legal move must remove the king from check.
+  Illegal moves are not allowed to be made, and need to be chosen again to be displayed
+  
+Things to implement:
+  Castling is currently not implemented
+  Currently there is a bug, where the first move entered for white is not registered, so they must click squares before making the first move
+    after this, moves are correctly registered
+  Stalemate/Checkmate identification/user feedback
+    Currently the player in checkmate simply can't make a move, and a stalemate just means no one can move
+  
+Things to improve in the code once everything is implemented:
+  Code resembles an italian pasta in some ways
+    There is room to clean it up, i.e. getter/setter methods were added later so their use isn't entirely consistent
+    Some repetitious logic in determining legal moves of pieces, some are better than others.
+    Non-complete commenting for some of the logic.
+  Lots of the logic is in the addMove method of the board class. It should be in the setLegalMoves method of the pieces
+    This is because I first programmed the piece movement basic logic, then implemented the Board/GUI, so I just worked with the code I had already written
+  There are a lot of long if statements and are similar to others that could certainly be reduced with methods.
+  
+    
+Broader thoughts about the code:
+  moveAction would be good if it were a class that could be applied to a board via an applyMove(moveAction) method in the Board class. 
+  Currently, moves are simply the coordinate of the piece being moved and where it is being moved to. This means that a lot of code is needed in the 
+  add move method to cover special moves like en passant and castling.
+  
+Misc features that could be added for fun:
+  user chooses what perspective they want to view the board from 
+  ability to rewind the board to view it at previous stages
+  added piece images
+  after the game ends, shows moves in a standardized format
